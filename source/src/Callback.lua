@@ -2093,7 +2093,7 @@ local z_num = anubis[2]
 local z_text = Redis:get(Fast..ChatId..IdUser.."zkrf:text")
 Redis:set(Fast..ChatId..IdUser.."zkrf:num", z_num)
 if tonumber(UserId) == tonumber(IdUser) then
-local api = https.request("https://ayad-12.xyz/anubis/zkhrfa.php?text="..URL.escape(z_text))
+local api = https.request("https://anubis.fun/api/zkhrfa.php?text="..URL.escape(z_text))
 local zkrf = JSON.decode(api)
 local zk = zkrf['anubis'][z_num]
 local reply_markup = bot.replyMarkup{
@@ -2128,7 +2128,7 @@ local z_num = tonumber(anubis[2])
 local z_text = Redis:get(Fast..ChatId..IdUser.."zkrf:text")
 local z_save = Redis:get(Fast..ChatId..IdUser.."zkrf:num")
 if tonumber(UserId) == tonumber(IdUser) then
-local api = https.request("https://ayad-12.xyz/anubis/zkhrfa.php?text="..URL.escape(z_text))
+local api = https.request("https://anubis.fun/api/zkhrfa.php?text="..URL.escape(z_text))
 local zkrf = JSON.decode(api)
 local zk = zkrf['anubis'][z_save]
 local zk_list = {
@@ -2160,7 +2160,7 @@ local UserId = Text:match('(%d+)/emo')
 local z_text = Redis:get(Fast..ChatId..IdUser.."zkrf:text")
 local z_save = Redis:get(Fast..ChatId..IdUser.."zkrf:num")
 if tonumber(UserId) == tonumber(IdUser) then
-local api = https.request("https://ayad-12.xyz/anubis/zkhrfa.php?text="..URL.escape(z_text))
+local api = https.request("https://anubis.fun/api/zkhrfa.php?text="..URL.escape(z_text))
 local zkrf = JSON.decode(api)
 local zk = zkrf['anubis'][z_save]
 edit(ChatId, Msg_id, "• تمت الزخࢪفھـۃ بنجاح\n\n▷ `"..zk.." ¦✨❤️` \n\n▷ `"..zk.." “̯ 🐼💗`\n\n▷ `"..zk.." 🦋“`\n\n▷ `"..zk.."ّ ❥̚͢₎ 🐣`\n\n▷ `"..zk.." ℡ ̇ ✨🐯⇣✦`\n\n▷ `"..zk.." 😴🌸✿⇣`\n\n▷ `"..zk.." •🙊💙`\n\n▷ `"..zk.." ❥┊⁽ ℡🦁🌸`\n\n▷ `"..zk.." •💚“`\n\n▷ `"..zk.." ⚡️♛ֆ₎`\n\n▷ `"..zk.." ⁞♩⁽💎🌩₎⇣✿`\n\n▷ `"..zk.." 〄💖‘`\n\nاضغط علي الزخࢪفھـۃ للنسخ 🎀..!", "md",false)
