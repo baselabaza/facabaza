@@ -13650,7 +13650,9 @@ data = {
 },
 }
 }
-return send(msg_chat_id,msg_id,"[ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ѕᴏᴜʀᴄᴇ ᴀʙᴀᴢᴀ]t.me/JJXXH)","md",true, false, false, true, reply_markup)
+bot.sendPhoto(msg.chat_id, msg.id, 'http://t.me/'..chsource..'', [[
+[ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ѕᴏᴜʀᴄᴇ ᴀʙᴀᴢᴀ](t.me/JJXXH) 
+]],"md", true, nil, nil, nil, nil, nil, nil, nil, nil,nil reply_markup)
 end
 
 if text == 'تحديث' then
