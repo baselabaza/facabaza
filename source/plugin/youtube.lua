@@ -49,108 +49,74 @@ send(msg.chat_id,msg.id,'*• اليوتيوب معطل*',"md",true)
 return false 
 end
 local search = text:match("^بحث (.*)$")
-local j = json:decode(http.request("https://youtube-scrape.herokuapp.com/api/search?q="..URL.escape(search)..""))
-local datar = {data = {{text = "قناه السورس" , url = 'http://t.me/'..chsource..''}}}
-for i = 1,6 do
-link = j.results[i].video.url
-title = j.results[i].video.title
-title = title:gsub("/","-") 
-title = title:gsub("\n","-") 
-title = title:gsub("|","-") 
-title = title:gsub("'","-") 
-title = title:gsub('"',"-") 
-datar[i] = {{text = title , data =msg.sender_id.user_id.."dl/"..link}}
+local json = json:decode(http.request("https://api-jack.ml/api18.php?search="..URL.escape(search)..""))
+local datar = {data = {{text = "٠ 𝘼𝘽𝘼𝙕𝘼¹ま ٠" , url = 'https://t.me/JJXXH'}}}
+for i = 1,5 do
+title = json.results[i].title
+link = json.results[i].url
+datar[i] = {{text = title , data =msg.sender.user_id.."dl/"..link}}
 end
-local reply_markup = bot.replyMarkup{
+local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = datar
 }
-send(msg.chat_id,msg.id,'• نتائج بحثك ل *'..search..'*',"md",false, false, false, false, reply_markup)
+LuaTele.sendText(msg.chat_id,msg.id,'※ نتائج بحثك ل *'..search..'*',"md",false, false, false, false, reply_markup)
 end
 end
 
-if Redis:get(Fast.."youtube"..msg.sender_id.user_id..msg_chat_id) == "mp3" then
-Redis:del(Fast.."youtube"..msg.sender_id.user_id..msg_chat_id)
+if Redis:get(Fast.."youtube"..msg.sender.user_id..msg_chat_id) == "mp3" then
+Redis:del(Fast.."youtube"..msg.sender.user_id..msg_chat_id)
 local rep = msg.id/2097152/0.5
-local m = json:decode(https.request("https://api.telegram.org/bot"..Token.."/sendAnimation?chat_id="..msg_chat_id.."&animation=https://t.me/youtube7odabot/7951&reply_to_message_id="..rep)).result.message_id
-local se = https.request("https://youtube-scrape.herokuapp.com/api/search?q="..URL.escape(text))
+local m = json:decode(https.request("https://api.telegram.org/bot"..Token.."/sendAnimation?chat_id="..msg_chat_id.."&animation=https://t.me/photojack14366/65&reply_to_message_id="..rep)).result.message_id
+local se = http.request("https://api-jack.ml/api18.php?search="..URL.escape(text))
 local j = JSON.decode(se)
-local link = j.results[1].video.url
-local title = j.results[1].video.title
+local link = j.results[1].url
+local title = j.results[1].title 
 local title = title:gsub("/","-") 
 local title = title:gsub("\n","-") 
 local title = title:gsub("|","-") 
 local title = title:gsub("'","-") 
 local title = title:gsub('"',"-") 
-local d = j.results[1].video.duration
-local d = tostring(d)
-if d:match("(%d+):(%d+):(%d+)") then
-tti = d
-elseif d:match("(%d+):(%d+)") then
-tti = "00:"..d
-end
-local dur = time_to_sec(tti)
-local p = j.results[1].uploader.username 
-local thumb = j.results[1].video.thumbnail_src
-local rand = math.random(0,10000)
-download(thumb,rand..'.png')
-local p = p:gsub("/","-") 
-local p = p:gsub("\n","-") 
-local p = p:gsub("|","-") 
-local p = p:gsub("'","-") 
-local p = p:gsub('"',"-") 
+print(link)
 os.execute("yt-dlp "..link.." -f 251 -o '"..title..".mp3'")
-bot.sendAudio(msg_chat_id,msg_id,'./'..title..'.mp3',"["..title.."]("..link..")","md",tostring(dur),title,p,"./"..rand..".png") 
+LuaTele.sendAudio(msg_chat_id,msg_id,'./'..title..'.mp3',""..title.."","md",nil,title)
 https.request("https://api.telegram.org/bot"..Token.."/deleteMessage?chat_id="..msg_chat_id.."&message_id="..m)
-Redis:del(Fast.."youtube"..msg.sender_id.user_id..msg_chat_id)
+Redis:del(Fast.."youtube"..msg.sender.user_id..msg_chat_id)
 sleep(2)
 os.remove(""..title..".mp3")
-os.remove(rand..".png")
 end
-if Redis:get(Fast.."youtube"..msg.sender_id.user_id..msg_chat_id) == "mp4" then
+if Redis:get(Fast.."youtube"..msg.sender.user_id..msg_chat_id) == "mp4" then
 local rep = msg.id/2097152/0.5
-local m = json:decode(https.request("https://api.telegram.org/bot"..Token.."/sendAnimation?chat_id="..msg_chat_id.."&animation=https://t.me/youtube7odabot/7951&reply_to_message_id="..rep)).result.message_id
-local se = https.request("https://youtube-scrape.herokuapp.com/api/search?q="..URL.escape(text))
+local m = json:decode(https.request("https://api.telegram.org/bot"..Token.."/sendAnimation?chat_id="..msg_chat_id.."&animation=https://t.me/photojack14366/65&reply_to_message_id="..rep)).result.message_id
+local se = http.request("https://api-jack.ml/api18.php?search="..URL.escape(text))
 local j = JSON.decode(se)
-local link = j.results[1].video.url
-local title = j.results[1].video.title
+local link = j.results[1].url
+local title = j.results[1].title 
 local title = title:gsub("/","-") 
 local title = title:gsub("\n","-") 
 local title = title:gsub("|","-") 
 local title = title:gsub("'","-") 
 local title = title:gsub('"',"-") 
-local d = j.results[1].video.duration
-local p = j.results[1].uploader.username 
-local thumb = j.results[1].video.thumbnail_src
-local p = p:gsub("/","-") 
-local p = p:gsub("\n","-") 
-local p = p:gsub("|","-") 
-local p = p:gsub("'","-") 
-local p = p:gsub('"',"-") 
 os.execute("yt-dlp "..link.." -f 18 -o '"..title..".mp4'")
-bot.sendVideo(msg_chat_id,msg_id,'./'..title..'.mp4',"["..title.."]("..link..")","md") 
+LuaTele.sendVideo(msg_chat_id,msg_id,'./'..title..'.mp4',""..title.."","md") 
 https.request("https://api.telegram.org/bot"..Token.."/deleteMessage?chat_id="..msg_chat_id.."&message_id="..m)
-Redis:del(Fast.."youtube"..msg.sender_id.user_id..msg_chat_id)
+Redis:del(Fast.."youtube"..msg.sender.user_id..msg_chat_id)
 sleep(2)
 os.remove(""..title..".mp4")
 end
-if text == "يوتيوب" then
-if Redis:get(Fast.."yt:lock"..msg.chat_id) then
-send(msg.chat_id,msg.id,'*• اليوتيوب معطل*',"md",true)  
-return false 
-end
-local reply_markup = bot.replyMarkup{
+if text == "يوتيوب" or text == 'يوت' or text == 'YouTube' or text == 'The Youtube' or text == 'Youtube' or text == 'youtube' or text == 'You Tube' or text == 'YT' or text == 'Yt' then
+local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'تحميل صوت', data = senderr..'/mp3'..msg_id}, {text = 'تحميل فيديو', data = senderr..'/mp4'..msg_id}, 
+{text = '𝑀𝑃3', data = msg.sender.user_id..'/mp3'..msg_id}, {text = '𝑀𝑃4', data = msg.sender.user_id..'/mp4'..msg_id}, 
+},
+{
+{text = '𝘼𝘽𝘼𝙕𝘼¹ま ', url = "https://t.me/JJXXH"}
 },
 }
 }
 return send(msg_chat_id,msg_id, [[*
-• اختر كيف تريد التحميل
+٠ 𝐶𝐻𝑂𝑂𝑆𝐸 𝐻𝑂𝑊 𝑌𝑂𝑈 𝑊𝐴𝑁𝑇 𝑇𝑂 𝐷𝑂𝑊𝑁𝐿𝑂𝐴𝐷 .
 *]],"md",false, false, false, false, reply_markup)
 end
-
-end
-return {Fast = youtube}
