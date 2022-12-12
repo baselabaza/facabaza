@@ -13643,17 +13643,14 @@ data = {
 {text = '𝙰𝙱𝙰𝚉𝙰 𝙼𝚄𝚂𝙸𝙲 🎧.',url='https://t.me/xmusicbbot'},
 },
 {
-{text = '- لـصـنـع بـوت مـجـانـي 🤖.',url='https://t.me/ABAZAFACBOT'},
+{text = '- لـصـنـع بـوت مـجـانـي 🤖.',url='https://t.me/XAbazAXbot'},
 },
 {
 {text = '- مـزيـد مـن الـبـوتـات الـمـجـانـيـة 💻.',url='https://t.me/B100T'},
 },
 }
 }
-
-bot.sendPhoto(msg.chat_id, msg.id, 'http://t.me/'..chsource..'', [[
-ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ѕᴏᴜʀᴄᴇ ᴀʙᴀᴢᴀ 
-]],"md", true, nil, nil, nil, nil, nil, nil, nil, nil, reply_markup)
+return send(msg_chat_id,msg_id,"[ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ѕᴏᴜʀᴄᴇ ᴀʙᴀᴢᴀ]t.me/JJXXH)","md",true, false, false, true, reply_markup)
 end
 
 if text == 'تحديث' then
