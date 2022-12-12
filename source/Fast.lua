@@ -13652,7 +13652,7 @@ data = {
 }
 bot.sendPhoto(msg.chat_id, msg.id, 'http://t.me/'..chsource..'', [[
 [ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ѕᴏᴜʀᴄᴇ ᴀʙᴀᴢᴀ](t.me/JJXXH) 
-]],"md", true, nil, nil, nil, nil, nil, nil, nil, nil,nil reply_markup)
+]],"md", true, nil, nil, nil, nil, nil, nil, nil, nil,nil, reply_markup)
 end
 
 if text == 'تحديث' then
