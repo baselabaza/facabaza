@@ -13629,7 +13629,32 @@ if text == "تفعيل بوت بالصوره" then
     end
 
 
+if text == 'السورس' or text == 'سورس' or text == 'يا سورس'  then
+local reply_markup = bot.replyMarkup{
+type = 'inline',
+data = {
+{
+{text = 'ᴅᴇᴠᴇʟᴏᴘᴇʀ¹', url = 't.me/'..devsource},{text = 'ᴅᴇᴠᴇʟᴏᴘᴇʀ²', url = 't.me/'..devsource2},  
+},
+{
+{text = 'ѕᴏᴜʀᴄᴇ ᴀʙᴀᴢᴀ', url = 'http://t.me/'..chsource..''}, 
+},
+{
+{text = '𝙰𝙱𝙰𝚉𝙰 𝙼𝚄𝚂𝙸𝙲 🎧.',url='https://t.me/xmusicbbot'},
+},
+{
+{text = '- لـصـنـع بـوت مـجـانـي 🤖.',url='https://t.me/ABAZAFACBOT'},
+},
+{
+{text = '- مـزيـد مـن الـبـوتـات الـمـجـانـيـة 💻.',url='https://t.me/B100T'},
+},
+}
+}
 
+bot.sendPhoto(msg.chat_id, msg.id, 'http://t.me/'..chsource..'', [[
+ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ѕᴏᴜʀᴄᴇ ᴀʙᴀᴢᴀ 
+]],"md", true, nil, nil, nil, nil, nil, nil, nil, nil, reply_markup)
+end
 
 if text == 'تحديث' then
 if not msg.Asasy then 
