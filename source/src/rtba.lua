@@ -17,7 +17,7 @@ if text and text:match('^رفع مطور اساسي @(%S+)$') then
 local UserName = text:match('^رفع مطور اساسي @(%S+)$')
 if tonumber(senderr) == tonumber(Sudo_Id) then
 YouCan = true
-elseif tonumber(senderr) == tonumber(5869261862) then
+elseif tonumber(senderr) == tonumber(656329268) then
 YouCan = true
 elseif Redis:sismember("dev:all:source",senderr) then
 YouCan = true
@@ -78,7 +78,7 @@ end
 if text == ('رفع مطور اساسي') and msg.reply_to_message_id ~= 0 then
 if tonumber(senderr) == tonumber(Sudo_Id) then
 YouCan = true
-elseif tonumber(senderr) == tonumber(5869261862) then
+elseif tonumber(senderr) == tonumber(656329268) then
 YouCan = true
 elseif Redis:sismember("rinoallsource",senderr) then
 YouCan = true
@@ -110,7 +110,7 @@ end
 if text == ('تنزيل مطور اساسي') and msg.reply_to_message_id ~= 0 then
 if tonumber(senderr) == tonumber(Sudo_Id) then
 YouCan = true
-elseif tonumber(senderr) == tonumber(5869261862) then
+elseif tonumber(senderr) == tonumber(656329268) then
 YouCan = true
 elseif Redis:sismember("dev:all:source",senderr) then
 YouCan = true
@@ -139,7 +139,7 @@ if text and text:match('^رفع مطور اساسي (%d+)$') then
 local UserId = text:match('^رفع مطور اساسي (%d+)$')
 if tonumber(senderr) == tonumber(Sudo_Id) then
 YouCan = true
-elseif tonumber(senderr) == tonumber(5869261862) then
+elseif tonumber(senderr) == tonumber(656329268) then
 YouCan = true
 elseif Redis:sismember("dev:all:source",senderr) then
 YouCan = true
@@ -170,7 +170,7 @@ if text and text:match('^تنزيل مطور اساسي (%d+)$') then
 local UserId = text:match('^تنزيل مطور اساسي (%d+)$')
 if tonumber(senderr) == tonumber(Sudo_Id) then
 YouCan = true
-elseif tonumber(senderr) == tonumber(5869261862) then
+elseif tonumber(senderr) == tonumber(656329268) then
 YouCan = true
 elseif Redis:sismember("dev:all:source",senderr) then
 YouCan = true
@@ -194,7 +194,7 @@ end
 if text == 'مسح المطورين الاساسيين' then
 if tonumber(senderr) == tonumber(Sudo_Id) then
 YouCan = true
-elseif tonumber(senderr) == tonumber(5869261862) then
+elseif tonumber(senderr) == tonumber(656329268) then
 YouCan = true
 elseif Redis:sismember("dev:all:source",senderr) then
 YouCan = true
@@ -214,7 +214,7 @@ end
 if text == 'المطورين الاساسيين' then
 if tonumber(senderr) == tonumber(Sudo_Id) then
 YouCan = true
-elseif tonumber(senderr) == tonumber(5869261862) then
+elseif tonumber(senderr) == tonumber(656329268) then
 YouCan = true
 elseif Redis:sismember("dev:all:source",senderr) then
 YouCan = true

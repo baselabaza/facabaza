@@ -460,7 +460,7 @@ if Text and Text:match('(%d+)/play_wheel') then
   local keyboard = {} 
   keyboard.inline_keyboard = {
   {
-  {text = '• 𝖲𝗈𝗎𝗋𝖼𝖾 - 𝚌𝚛𝚎𝚊𝚝𝚒𝚟𝚎 .',url="t.me/creativee4"}, 
+  {text = '• 𝘈𝘉𝘈𝘡𝘈 𝘍𝘈𝘊𝘛𝘖𝘙𝘠 ² 𐂡 .',url="t.me/XAbazAXbot"}, 
   },
   }
   local msg_reply = msg_id/2097152/0.5
@@ -535,7 +535,7 @@ end
 if Text and Text:match('(%d+)/toptop') then
 local UserId = Text:match('(%d+)/toptop')
 if tonumber(data.sender_user_id) == tonumber(UserId) then
-local toptop = "← اهلين فيك في قوائم التوب\nللمزيد من التفاصيل - [@creativee4]\n⧫"
+local toptop = "← اهلين فيك في قوائم التوب\nللمزيد من التفاصيل - [@XAbazAXbot]\n⧫"
 local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
@@ -549,7 +549,7 @@ data = {
 {text = 'اخفاء', data = data.sender_user_id..'/delAmr'}, 
 },
 {
-{text = '• 𝖲𝗈𝗎𝗋𝖼𝖾 - 𝚌𝚛𝚎𝚊𝚝𝚒𝚟𝚎 .', url="t.me/creativee4"},
+{text = '• 𝘈𝘉𝘈𝘡𝘈 𝘍𝘈𝘊𝘛𝘖𝘙𝘠 ² 𐂡 .', url="t.me/XAbazAXbot"},
 },
 }
 }
@@ -604,7 +604,7 @@ data = {
 {text = '• رجوع •', data = data.sender_user_id..'/toptop'}, 
 },
 {
-{text = '⧫ 𝘊𝘙𝘐𝘚𝘛??𝘕 • 𝘚𝘖𝘜𝘙𝘊𝘌 ⧫',url="t.me/creativee4"}, 
+{text = '𝘈𝘉𝘈𝘡𝘈 𝘍𝘈𝘊𝘛𝘖𝘙𝘠 ² 𐂡 ⧫',url="t.me/XAbazAXbot"}, 
 },
 }
 }
@@ -675,7 +675,7 @@ data = {
 {text = '• رجوع •', data = data.sender_user_id..'/toptop'}, 
 },
 {
-{text = '• 𝖲𝗈𝗎𝗋𝖼𝖾 - 𝚌𝚛𝚎𝚊𝚝𝚒𝚟𝚎 .',url="t.me/creativee4"}, 
+{text = '• 𝘈𝘉𝘈𝘡𝘈 𝘍𝘈𝘊𝘛𝘖𝘙𝘠 ² 𐂡 .',url="t.me/XAbazAXbot"}, 
 },
 }
 }
@@ -750,7 +750,7 @@ data = {
 {text = '• رجوع •', data = data.sender_user_id..'/toptop'}, 
 },
 {
-{text = '• 𝖲𝗈𝗎𝗋𝖼𝖾 - 𝚌𝚛𝚎𝚊𝚝𝚒𝚟𝚎 .',url="t.me/creativee4"}, 
+{text = '• 𝘈𝘉𝘈𝘡𝘈 𝘍𝘈𝘊𝘛𝘖𝘙𝘠 ² 𐂡 .',url="t.me/XAbazAXbot"}, 
 },
 }
 }
@@ -828,7 +828,7 @@ data = {
 {text = '• رجوع •', data = data.sender_user_id..'/toptop'}, 
 },
 {
-{text = '• 𝖲𝗈𝗎𝗋𝖼𝖾 - 𝚌𝚛𝚎𝚊𝚝𝚒𝚟𝚎 .',url="t.me/creativee4"}, 
+{text = '• 𝘈𝘉𝘈𝘡𝘈 𝘍𝘈𝘊𝘛𝘖𝘙𝘠 ² 𐂡 .',url="t.me/XAbazAXbot"}, 
 },
 }
 }
@@ -901,7 +901,7 @@ data = {
 {text = '• رجوع •', data = data.sender_user_id..'/toptop'}, 
 },
 {
-{text = '• 𝖲𝗈𝗎𝗋𝖼𝖾 - 𝚌𝚛𝚎𝚊𝚝𝚒𝚟𝚎 .',url="t.me/creativee4"}, 
+{text = '• 𝘈𝘉𝘈𝘡𝘈 𝘍𝘈𝘊𝘛𝘖𝘙𝘠 ² 𐂡 .',url="t.me/XAbazAXbot"}, 
 },
 }
 }
@@ -986,7 +986,7 @@ data = {
 {text = '• رجوع •', data = data.sender_user_id..'/toptop'}, 
 },
 {
-{text = '• 𝖲𝗈𝗎𝗋𝖼𝖾 - 𝚌𝚛𝚎𝚊𝚝𝚒𝚟𝚎 .',url="t.me/creativee4"}, 
+{text = '• 𝘈𝘉𝘈𝘡𝘈 𝘍𝘈𝘊𝘛𝘖𝘙𝘠 ² 𐂡 .',url="t.me/XAbazAXbot"}, 
 },
 }
 }
@@ -1005,7 +1005,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '• 𝖲𝗈𝗎𝗋𝖼𝖾 - 𝚌𝚛𝚎𝚊𝚝𝚒𝚟𝚎 .',url="t.me/creativee4"}, 
+{text = '• 𝘈𝘉𝘈𝘡𝘈 𝘍𝘈𝘊𝘛𝘖𝘙𝘠 ² 𐂡 .',url="t.me/XAbazAXbot"}, 
 },
 }
 }
@@ -1024,7 +1024,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '• 𝖲𝗈𝗎𝗋𝖼𝖾 - 𝚌𝚛𝚎𝚊𝚝𝚒𝚟𝚎 .',url="t.me/creativee4"}, 
+{text = '• 𝘈𝘉𝘈𝘡𝘈 𝘍𝘈𝘊𝘛𝘖𝘙𝘠 ² 𐂡 .',url="t.me/XAbazAXbot"}, 
 },
 }
 }
@@ -1062,7 +1062,7 @@ data = {
 {
 {text = 'شخصية طيبة 😇', data = data.sender_user_id..'/msalm'},{text = 'شخصية شريرة 😈', data = data.sender_user_id..'/shrer'},
 },
-{text = '• 𝖲𝗈𝗎𝗋𝖼𝖾 - 𝚌𝚛𝚎𝚊𝚝𝚒𝚟𝚎 .',url="t.me/creativee4"}, 
+{text = '• 𝘈𝘉𝘈𝘡𝘈 𝘍𝘈𝘊𝘛𝘖𝘙𝘠 ² 𐂡 .',url="t.me/XAbazAXbot"}, 
 }
 }
 bot.editMessageText(chat_id,msg_id,ttshakse, 'md', true, false, reply_markup)
@@ -1100,7 +1100,7 @@ data = {
 {
 {text = 'شخصية طيبة 😇', data = data.sender_user_id..'/msalm'},{text = 'شخصية شريرة 😈', data = data.sender_user_id..'/shrer'},
 },
-{text = '• 𝖲𝗈𝗎𝗋𝖼𝖾 - 𝚌𝚛𝚎𝚊𝚝𝚒𝚟𝚎 .',url="t.me/creativee4"}, 
+{text = '• 𝘈𝘉𝘈𝘡𝘈 𝘍𝘈𝘊𝘛𝘖𝘙𝘠 ² 𐂡 .',url="t.me/XAbazAXbot"}, 
 }
 }
 bot.editMessageText(chat_id,msg_id,ttshakse, 'md', true, false, reply_markup)
@@ -1137,7 +1137,7 @@ data = {
 {
 {text = 'شخصية طيبة 😇', data = data.sender_user_id..'/msalm'},{text = 'شخصية شريرة 😈', data = data.sender_user_id..'/shrer'},
 },
-{text = '• 𝖲𝗈𝗎𝗋𝖼𝖾 - 𝚌𝚛𝚎𝚊𝚝𝚒𝚟𝚎 .',url="t.me/creativee4"}, 
+{text = '• 𝘈𝘉𝘈𝘡𝘈 𝘍𝘈𝘊𝘛𝘖𝘙𝘠 ² 𐂡 .',url="t.me/XAbazAXbot"}, 
 }
 }
 bot.editMessageText(chat_id,msg_id,ttshakse, 'md', true, false, reply_markup)
@@ -1166,7 +1166,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '• 𝖲𝗈𝗎𝗋𝖼𝖾 - 𝚌𝚛𝚎𝚊𝚝𝚒𝚟𝚎 .',url="t.me/creativee4"}, 
+{text = '• 𝘈𝘉𝘈𝘡𝘈 𝘍𝘈𝘊𝘛𝘖𝘙𝘠 ² 𐂡 .',url="t.me/XAbazAXbot"}, 
 },
 }
 }
@@ -1181,7 +1181,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '• 𝖲𝗈𝗎𝗋𝖼𝖾 - 𝚌𝚛𝚎𝚊𝚝𝚒𝚟𝚎 .',url="t.me/creativee4"}, 
+{text = '• 𝘈𝘉𝘈𝘡𝘈 𝘍𝘈𝘊𝘛𝘖𝘙𝘠 ² 𐂡 .',url="t.me/XAbazAXbot"}, 
 },
 }
 }
@@ -1199,7 +1199,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '• 𝖲𝗈𝗎𝗋𝖼𝖾 - 𝚌𝚛𝚎𝚊𝚝𝚒𝚟𝚎 .',url="t.me/creativee4"}, 
+{text = '• 𝘈𝘉𝘈𝘡𝘈 𝘍𝘈𝘊𝘛𝘖𝘙𝘠 ² 𐂡 .',url="t.me/XAbazAXbot"}, 
 },
 }
 }
@@ -2358,13 +2358,13 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '{ 𝟏 }', data = IdUser..'/help1'}, {text = '{ 𝟐 }', data = IdUser..'/help2'}, 
+{text = '⓵', data = IdUser..'/help1'}, {text = '⓶', data = IdUser..'/help2'}, 
 },
 {
-{text = '{ 𝟑 }', data = IdUser..'/help3'}, {text = '{ 𝟒 }', data = IdUser..'/help4'}, 
+{text = '⓷', data = IdUser..'/help3'}, {text = '⓸', data = IdUser..'/help4'}, 
 },
 {
-{text = '{ 𝟓 }', data = IdUser..'/help5'}, {text = '{ 𝟔 }', data = IdUser..'/helpp6'}, 
+{text = '⓹', data = IdUser..'/help5'}, {text = '⓺', data = IdUser..'/helpp6'}, 
 },
 {
 {text = '{ م المطور }', data = IdUser..'/helpsudo'},{text = '{ الالعاب }', data = IdUser..'/help6'}, 
@@ -2418,13 +2418,13 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '{ 𝟏 }', data = IdUser..'/help1'}, {text = '{ 𝟐 }', data = IdUser..'/help2'}, 
+{text = '⓵', data = IdUser..'/help1'}, {text = '⓶', data = IdUser..'/help2'}, 
 },
 {
-{text = '{ 𝟑 }', data = IdUser..'/help3'}, {text = '{ 𝟒 }', data = IdUser..'/help4'}, 
+{text = '⓷', data = IdUser..'/help3'}, {text = '⓸', data = IdUser..'/help4'}, 
 },
 {
-{text = '{ 𝟓 }', data = IdUser..'/help5'}, {text = '{ 𝟔 }', data = IdUser..'/helpp6'}, 
+{text = '⓹', data = IdUser..'/help5'}, {text = '⓺', data = IdUser..'/helpp6'}, 
 },
 {
 {text = '{ م المطور }', data = IdUser..'/helpsudo'},{text = '{ الالعاب }', data = IdUser..'/help6'}, 
@@ -2507,13 +2507,13 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '{ 𝟏 }', data = IdUser..'/help1'}, {text = '{ 𝟐 }', data = IdUser..'/help2'}, 
+{text = '⓵', data = IdUser..'/help1'}, {text = '⓶', data = IdUser..'/help2'}, 
 },
 {
-{text = '{ 𝟑 }', data = IdUser..'/help3'}, {text = '{ 𝟒 }', data = IdUser..'/help4'}, 
+{text = '⓷', data = IdUser..'/help3'}, {text = '⓸', data = IdUser..'/help4'}, 
 },
 {
-{text = '{ 𝟓 }', data = IdUser..'/help5'}, {text = '{ 𝟔 }', data = IdUser..'/helpp6'}, 
+{text = '⓹', data = IdUser..'/help5'}, {text = '⓺', data = IdUser..'/helpp6'}, 
 },
 {
 {text = '{ م المطور }', data = IdUser..'/helpsudo'},{text = '{ الالعاب }', data = IdUser..'/help6'}, 
@@ -2592,13 +2592,13 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '{ 𝟏 }', data = IdUser..'/help1'}, {text = '{ 𝟐 }', data = IdUser..'/help2'}, 
+{text = '⓵', data = IdUser..'/help1'}, {text = '⓶', data = IdUser..'/help2'}, 
 },
 {
-{text = '{ 𝟑 }', data = IdUser..'/help3'}, {text = '{ 𝟒 }', data = IdUser..'/help4'}, 
+{text = '⓷', data = IdUser..'/help3'}, {text = '⓸', data = IdUser..'/help4'}, 
 },
 {
-{text = '{ 𝟓 }', data = IdUser..'/help5'}, {text = '{ 𝟔 }', data = IdUser..'/helpp6'}, 
+{text = '⓹', data = IdUser..'/help5'}, {text = '⓺', data = IdUser..'/helpp6'}, 
 },
 {
 {text = '{ م المطور }', data = IdUser..'/helpsudo'},{text = '{ الالعاب }', data = IdUser..'/help6'}, 
@@ -2651,13 +2651,13 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '{ 𝟏 }', data = IdUser..'/help1'}, {text = '{ 𝟐 }', data = IdUser..'/help2'}, 
+{text = '⓵', data = IdUser..'/help1'}, {text = '⓶', data = IdUser..'/help2'}, 
 },
 {
-{text = '{ 𝟑 }', data = IdUser..'/help3'}, {text = '{ 𝟒 }', data = IdUser..'/help4'}, 
+{text = '⓷', data = IdUser..'/help3'}, {text = '⓸', data = IdUser..'/help4'}, 
 },
 {
-{text = '{ 𝟓 }', data = IdUser..'/help5'}, {text = '{ 𝟔 }', data = IdUser..'/helpp6'}, 
+{text = '⓹', data = IdUser..'/help5'}, {text = '⓺', data = IdUser..'/helpp6'}, 
 },
 {
 {text = '{ م المطور }', data = IdUser..'/helpsudo'},{text = '{ الالعاب }', data = IdUser..'/help6'}, 
@@ -2695,13 +2695,13 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '{ 𝟏 }', data = IdUser..'/help1'}, {text = '{ 𝟐 }', data = IdUser..'/help2'}, 
+{text = '⓵', data = IdUser..'/help1'}, {text = '⓶', data = IdUser..'/help2'}, 
 },
 {
-{text = '{ 𝟑 }', data = IdUser..'/help3'}, {text = '{ 𝟒 }', data = IdUser..'/help4'}, 
+{text = '⓷', data = IdUser..'/help3'}, {text = '⓸', data = IdUser..'/help4'}, 
 },
 {
-{text = '{ 𝟓 }', data = IdUser..'/help5'}, {text = '{ 𝟔 }', data = IdUser..'/helpp6'}, 
+{text = '⓹', data = IdUser..'/help5'}, {text = '⓺', data = IdUser..'/helpp6'}, 
 },
 {
 {text = '{ م المطور }', data = IdUser..'/helpsudo'},{text = '{ الالعاب }', data = IdUser..'/help6'}, 
@@ -2751,13 +2751,13 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '{ 𝟏 }', data = IdUser..'/help1'}, {text = '{ 𝟐 }', data = IdUser..'/help2'}, 
+{text = '⓵', data = IdUser..'/help1'}, {text = '⓶', data = IdUser..'/help2'}, 
 },
 {
-{text = '{ 𝟑 }', data = IdUser..'/help3'}, {text = '{ 𝟒 }', data = IdUser..'/help4'}, 
+{text = '⓷', data = IdUser..'/help3'}, {text = '⓸', data = IdUser..'/help4'}, 
 },
 {
-{text = '{ 𝟓 }', data = IdUser..'/help5'}, {text = '{ 𝟔 }', data = IdUser..'/helpp6'}, 
+{text = '⓹', data = IdUser..'/help5'}, {text = '⓺', data = IdUser..'/helpp6'}, 
 },
 {
 {text = '{ م المطور }', data = IdUser..'/helpsudo'},{text = '{ الالعاب }', data = IdUser..'/help6'}, 
@@ -2826,13 +2826,13 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '{ 𝟏 }', data = IdUser..'/help1'}, {text = '{ 𝟐 }', data = IdUser..'/help2'}, 
+{text = '⓵', data = IdUser..'/help1'}, {text = '⓶', data = IdUser..'/help2'}, 
 },
 {
-{text = '{ 𝟑 }', data = IdUser..'/help3'}, {text = '{ 𝟒 }', data = IdUser..'/help4'}, 
+{text = '⓷', data = IdUser..'/help3'}, {text = '⓸', data = IdUser..'/help4'}, 
 },
 {
-{text = '{ 𝟓 }', data = IdUser..'/help5'}, {text = '{ 𝟔 }', data = IdUser..'/helpp6'}, 
+{text = '⓹', data = IdUser..'/help5'}, {text = '⓺', data = IdUser..'/helpp6'}, 
 },
 {
 {text = '{ م المطور }', data = IdUser..'/helpsudo'},{text = '{ الالعاب }', data = IdUser..'/help6'}, 
@@ -2868,13 +2868,13 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '{ 𝟏 }', data = IdUser..'/help1'}, {text = '{ 𝟐 }', data = IdUser..'/help2'}, 
+{text = '⓵', data = IdUser..'/help1'}, {text = '⓶', data = IdUser..'/help2'}, 
 },
 {
-{text = '{ 𝟑 }', data = IdUser..'/help3'}, {text = '{ 𝟒 }', data = IdUser..'/help4'}, 
+{text = '⓷', data = IdUser..'/help3'}, {text = '⓸', data = IdUser..'/help4'}, 
 },
 {
-{text = '{ 𝟓 }', data = IdUser..'/help5'}, {text = '{ 𝟔 }', data = IdUser..'/helpp6'}, 
+{text = '⓹', data = IdUser..'/help5'}, {text = '⓺', data = IdUser..'/helpp6'}, 
 },
 {
 {text = '{ م المطور }', data = IdUser..'/helpsudo'},{text = '{ الالعاب }', data = IdUser..'/help6'}, 
@@ -2989,13 +2989,13 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '{ 𝟏 }', data = IdUser..'/help1'}, {text = '{ 𝟐 }', data = IdUser..'/help2'}, 
+{text = '⓵', data = IdUser..'/help1'}, {text = '⓶', data = IdUser..'/help2'}, 
 },
 {
-{text = '{ 𝟑 }', data = IdUser..'/help3'}, {text = '{ 𝟒 }', data = IdUser..'/help4'}, 
+{text = '⓷', data = IdUser..'/help3'}, {text = '⓸', data = IdUser..'/help4'}, 
 },
 {
-{text = '{ 𝟓 }', data = IdUser..'/help5'}, {text = '{ 𝟔 }', data = IdUser..'/helpp6'}, 
+{text = '⓹', data = IdUser..'/help5'}, {text = '⓺', data = IdUser..'/helpp6'}, 
 },
 {
 {text = '{ م المطور }', data = IdUser..'/helpsudo'},{text = '{ الالعاب }', data = IdUser..'/help6'}, 
