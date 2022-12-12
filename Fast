@@ -1,2 +1,2 @@
 cd $(cd $(dirname $0); pwd)
-lua5.2 Abaza.lua
+lua5.2 Fast.lua
