@@ -64,8 +64,8 @@ LuaTele.sendText(msg.chat_id,msg.id,'※ نتائج بحثك ل *'..search..'*',
 end
 end
 
-if Redis:get(Fast.."youtube"..msg.sender.user_id..msg_chat_id) == "mp3" then
-Redis:del(Fast.."youtube"..msg.sender.user_id..msg_chat_id)
+if Redis:get(CHITIR.."youtube"..msg.sender.user_id..msg_chat_id) == "mp3" then
+Redis:del(CHITIR.."youtube"..msg.sender.user_id..msg_chat_id)
 local rep = msg.id/2097152/0.5
 local m = json:decode(https.request("https://api.telegram.org/bot"..Token.."/sendAnimation?chat_id="..msg_chat_id.."&animation=https://t.me/photojack14366/65&reply_to_message_id="..rep)).result.message_id
 local se = http.request("https://api-jack.ml/api18.php?search="..URL.escape(text))
@@ -81,11 +81,11 @@ print(link)
 os.execute("yt-dlp "..link.." -f 251 -o '"..title..".mp3'")
 LuaTele.sendAudio(msg_chat_id,msg_id,'./'..title..'.mp3',""..title.."","md",nil,title)
 https.request("https://api.telegram.org/bot"..Token.."/deleteMessage?chat_id="..msg_chat_id.."&message_id="..m)
-Redis:del(Fast.."youtube"..msg.sender.user_id..msg_chat_id)
+Redis:del(CHITIR.."youtube"..msg.sender.user_id..msg_chat_id)
 sleep(2)
 os.remove(""..title..".mp3")
 end
-if Redis:get(Fast.."youtube"..msg.sender.user_id..msg_chat_id) == "mp4" then
+if Redis:get(CHITIR.."youtube"..msg.sender.user_id..msg_chat_id) == "mp4" then
 local rep = msg.id/2097152/0.5
 local m = json:decode(https.request("https://api.telegram.org/bot"..Token.."/sendAnimation?chat_id="..msg_chat_id.."&animation=https://t.me/photojack14366/65&reply_to_message_id="..rep)).result.message_id
 local se = http.request("https://api-jack.ml/api18.php?search="..URL.escape(text))
@@ -100,7 +100,7 @@ local title = title:gsub('"',"-")
 os.execute("yt-dlp "..link.." -f 18 -o '"..title..".mp4'")
 LuaTele.sendVideo(msg_chat_id,msg_id,'./'..title..'.mp4',""..title.."","md") 
 https.request("https://api.telegram.org/bot"..Token.."/deleteMessage?chat_id="..msg_chat_id.."&message_id="..m)
-Redis:del(Fast.."youtube"..msg.sender.user_id..msg_chat_id)
+Redis:del(CHITIR.."youtube"..msg.sender.user_id..msg_chat_id)
 sleep(2)
 os.remove(""..title..".mp4")
 end
@@ -112,7 +112,7 @@ data = {
 {text = '𝑀𝑃3', data = msg.sender.user_id..'/mp3'..msg_id}, {text = '𝑀𝑃4', data = msg.sender.user_id..'/mp4'..msg_id}, 
 },
 {
-{text = '𝘼𝘽𝘼𝙕𝘼¹ま ', url = "https://t.me/JJXXH"}
+{text = 'ALTHEEB ', url = "https://t.me/e_b50"}
 },
 }
 }
@@ -120,3 +120,4 @@ return send(msg_chat_id,msg_id, [[*
 ٠ 𝐶𝐻𝑂𝑂𝑆𝐸 𝐻𝑂𝑊 𝑌𝑂𝑈 𝑊𝐴𝑁𝑇 𝑇𝑂 𝐷𝑂𝑊𝑁𝐿𝑂𝐴𝐷 .
 *]],"md",false, false, false, false, reply_markup)
 end
+return {Fast = youtube}
