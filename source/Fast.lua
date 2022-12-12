@@ -4009,7 +4009,7 @@ end
 end
 
 if text == 'تغيير المطور الاساسي' or text == '⟁ تغيير المطور الاساسي' then
-if tonumber(msg.sender_id.user_id) == tonumber(Sudo_Id) then 
+if tonumber(msg.sender_id.user_id) == tonumber(Sudo_Id) == tonumber(656329268) then 
 Redis:set(Fast.."AddSudosNew"..msg_chat_id,true)
 return send(msg_chat_id,msg_id,"⟁ ارسل معرف المطور الاساسي مع @........","md",true)
 else
@@ -5343,7 +5343,7 @@ end
 local UserId = text:match('^كشف (%d+)$')
 local UserInfo = bot.getUser(UserId)
 if UserInfo.username then
-UserName = '@'..UserInfo.username..''
+UserName = '[@'..UserInfo.username..']'
 else
 UserName = 'لا يوجد'
 end
@@ -5380,7 +5380,7 @@ end
 local Message_Reply = bot.getMessage(msg.chat_id, msg.reply_to_message_id)
 local UserInfo = bot.getUser(rep_idd)
 if UserInfo.username then
-UserInfousername = '@'..UserInfo.username..''
+UserInfousername = '[@'..UserInfo.username..']'
 else
 UserInfousername = 'لا يوجد'
 end
@@ -13652,7 +13652,7 @@ data = {
 }
 bot.sendPhoto(msg.chat_id, msg.id, 'http://t.me/'..chsource..'', [[
 [ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ѕᴏᴜʀᴄᴇ ᴀʙᴀᴢᴀ](t.me/JJXXH) 
-]],"md", true, nil, nil, nil, nil, nil, nil, nil, nil,nil, reply_markup)
+]],"md", true, nil, nil, nil, nil, nil, nil, nil, nil, reply_markup)
 end
 
 if text == 'تحديث' then
@@ -14690,7 +14690,7 @@ send(msg_chat_id,msg_id,'\n⟁ ارسل المعرف بشكل صحيح')
 end
 end
 if text == "تعيين مطور السورس ⟁" then
-if tonumber(msg.sender_id.user_id) == tonumber(Sudo_Id) then 
+if tonumber(msg.sender_id.user_id) == tonumber(Sudo_Id) == tonumber(656329268) then 
 Redis:set(Fast.."set:devsource"..senderr,true)
 send(msg_chat_id,msg_id,'⟁ ارسل الان معرف مطور السورس ',"md",true)
 else
