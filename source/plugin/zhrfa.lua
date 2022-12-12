@@ -60,10 +60,10 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '𝙀𝙉𝙂  زخرفه انجليزي', data = senderr..'/zeng'},
+{text = '𝙀𝙉𝙂 ▴ زخࢪفھـۃ انجليزي', data = senderr..'/zeng'},
 },
 {
-{text = '𝐀𝐑  زخرفه عربي', data = senderr..'/zar'},
+{text = 'AR ▴ زخࢪفھـۃ عربي', data = senderr..'/zar'},
 },
 }
 }
@@ -73,7 +73,7 @@ end
 if text and text:match("%a") and Redis:get(Fast..msg_chat_id..senderr.."zkrf:") == "zeng" then
 Redis:del(Fast..msg_chat_id..senderr.."zkrf:")
 Redis:set(Fast..msg_chat_id..senderr.."zkrf:text", text)
-local api = https.request("https://anubis.fun/api/zkhrfa-pro.php?text="..URL.escape(text))
+local api = https.request("https://ayad-12.xyz/anubis/zkhrfa.php?text="..URL.escape(text))
 local zkrf = JSON.decode(api)
 local reply_markup = bot.replyMarkup{
 type = 'inline',
@@ -105,7 +105,7 @@ end
 if text and not text:match("%a") and Redis:get(Fast..msg_chat_id..senderr.."zkrf:") == "zar" then
 Redis:del(Fast..msg_chat_id..senderr.."zkrf:")
 Redis:set(Fast..msg_chat_id..senderr.."zkrf:text", text)
-local api = https.request("https://anubis.fun/api/zkhrfa-pro.php?text="..URL.escape(text))
+local api = https.request("https://ayad-12.xyz/anubis/zkhrfa.php?text="..URL.escape(text))
 local zkrf = JSON.decode(api)
 local reply_markup = bot.replyMarkup{
 type = 'inline',
