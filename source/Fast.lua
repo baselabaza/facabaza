@@ -2038,7 +2038,7 @@ for k,v in pairs(msg.content.member_user_ids) do
 if tonumber(v) == tonumber(Fast) then
 local idephoto = Redis:get(Fast..':WELCOME_BOT')
 if idephoto then
-local Bot_Name = (Redis:get(Fast.."Name:Bot") or "كريتيف")
+local Bot_Name = (Redis:get(Fast.."Name:Bot") or "اباظة")
 return bot.sendPhoto(msg.chat_id, msg.id, idephoto,
 '\n*⟁ اهلا انآ بوت اسمي '..Bot_Name..''..
 '\n⟁ آختصـآصـي حمـآيهہ‌‏ آلمـجمـوعآت'..
@@ -11154,7 +11154,7 @@ if Redis:get(Fast..":CV:Name:"..msg.sender_id.user_id..":"..msg.chat_id) then
 return send(msg_chat_id,msg_id,'\n⌯ انت تمتلك سي في باسمك اكتب ( `عرض سي في` ) لتتمكن من رؤيه السي في',"md",true)  
 end
 Redis:set(Fast..":CV:set:"..msg.sender_id.user_id..":"..msg.chat_id, "Name")
-return send(msg_chat_id,msg_id,'\n⌯ مرحبا بك في السجل المدني الخاص بسورس كريتيف\nاكتب اسمك الان :',"md",true)  
+return send(msg_chat_id,msg_id,'\n⌯ مرحبا بك في السجل المدني الخاص بسورس اباظة\nاكتب اسمك الان :',"md",true)  
 end
 
 if text and Redis:get(Fast..":CV:set:"..msg.sender_id.user_id..":"..msg.chat_id) == "Name" then 
@@ -13700,7 +13700,7 @@ end
 Redis:del(Fast.."Name:Bot") 
 return send(msg_chat_id,msg_id,"⟁ تم مسح اسم البوت ","md",true)   
 end
-if text == (Redis:get(Fast.."Name:Bot") or "كريتيف") then
+if text == (Redis:get(Fast.."Name:Bot") or "اباظة") then
 if Redis:get(Fast.."name bot type : ") == "photo" then
   local photo = bot.getUserProfilePhotos(Fast)
   local UserInfo = bot.getUser(Fast)
@@ -13718,7 +13718,7 @@ if Redis:get(Fast.."name bot type : ") == "photo" then
   }
   
   if photo.total_count > 0 then
-    local NamesBot = (Redis:get(Fast.."Name:Bot") or "كريتيف")
+    local NamesBot = (Redis:get(Fast.."Name:Bot") or "اباظة")
     local NameBots = {
 "قلب "..NamesBot ,
 "مين مزعلك بس يعيوني 🥺🌚💋",
@@ -13728,7 +13728,7 @@ if Redis:get(Fast.."name bot type : ") == "photo" then
 }
   return bot.sendPhoto(msg.chat_id, msg.id, photo.photos[1].sizes[#photo.photos[1].sizes].photo.remote.id,NameBots[math.random(#NameBots)], "md", true, nil, nil, nil, nil, nil, nil, nil, nil, reply_markup )
   else
-    local NamesBot = (Redis:get(Fast.."Name:Bot") or "كريتيف")
+    local NamesBot = (Redis:get(Fast.."Name:Bot") or "اباظة")
     local NameBots = {
 "قلب "..NamesBot ,
 "مين مزعلك بس يعيوني 🥺🌚💋",
@@ -13739,7 +13739,7 @@ if Redis:get(Fast.."name bot type : ") == "photo" then
   return send(msg_chat_id,msg_id,NameBots[math.random(#NameBots)],"md") 
   end 
   end
-      local NamesBot = (Redis:get(Fast.."Name:Bot") or "كريتيف")
+      local NamesBot = (Redis:get(Fast.."Name:Bot") or "اباظة")
     local NameBots = {
 "قلب "..NamesBot ,
 "مين مزعلك بس يعيوني 🥺🌚💋",
@@ -13771,7 +13771,7 @@ if Redis:get(Fast.."name bot type : ") == "photo" then
     }
     
     if photo.total_count > 0 then
-      local NamesBot = (Redis:get(Fast.."Name:Bot") or "كريتيف")
+      local NamesBot = (Redis:get(Fast.."Name:Bot") or "اباظة")
       local BotName = {
       "اسمي "..NamesBot.." يبن العاميه",
       "يارب يكون موضوع مهم بس",
@@ -13781,7 +13781,7 @@ if Redis:get(Fast.."name bot type : ") == "photo" then
       }
     return bot.sendPhoto(msg.chat_id, msg.id, photo.photos[1].sizes[#photo.photos[1].sizes].photo.remote.id,BotName[math.random(#BotName)], "md", true, nil, nil, nil, nil, nil, nil, nil, nil, reply_markup )
     else
-      local NamesBot = (Redis:get(Fast.."Name:Bot") or "كريتيف")
+      local NamesBot = (Redis:get(Fast.."Name:Bot") or "اباظة")
       local BotName = {
       "اسمي "..NamesBot.." يبن العاميه",
       "يارب يكون موضوع مهم بس",
@@ -13792,7 +13792,7 @@ if Redis:get(Fast.."name bot type : ") == "photo" then
     return send(msg_chat_id,msg_id,BotName[math.random(#BotName)],"md") 
     end 
     end
-          local NamesBot = (Redis:get(Fast.."Name:Bot") or "كريتيف")
+          local NamesBot = (Redis:get(Fast.."Name:Bot") or "اباظة")
       local BotName = {
       "اسمي "..NamesBot.." يبن العاميه",
       "يارب يكون موضوع مهم بس",
