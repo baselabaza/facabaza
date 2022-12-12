@@ -60,10 +60,10 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '𝙀𝙉𝙂 ▴ زخࢪفھـۃ انجليزي', data = senderr..'/zeng'},
+{text = '𝙀𝙉𝙂  زخرفه انجليزي', data = senderr..'/zeng'},
 },
 {
-{text = 'AR ▴ زخࢪفھـۃ عربي', data = senderr..'/zar'},
+{text = '𝐀𝐑  زخرفه عربي', data = senderr..'/zar'},
 },
 }
 }

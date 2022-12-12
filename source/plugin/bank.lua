@@ -39,7 +39,7 @@ data = {
 {
 {text = 'ماستر', data = msg.sender_id.user_id..'/master'},{text = 'فيزا', data = msg.sender_id.user_id..'/visaa'},{text = 'اكسبرس', data = msg.sender_id.user_id..'/express'},
 },
-{text = '• 𝖲𝗈𝗎𝗋𝖼𝖾 - 𝚌𝚛𝚎𝚊𝚝𝚒𝚟𝚎 .',url="t.me/IPP_QC"}, 
+{text = '• 𝘼𝘽𝘼𝙕𝘼¹ま .',url="t.me/JJXXH"}, 
 }
 }
 return bot.sendText(msg.chat_id,msg.id,ttshakse,"md",false, false, false, false, reply_markup)
@@ -998,7 +998,7 @@ bot.sendText(msg.chat_id,msg.id, "← ماعنده حساب بنكي","md",true)
 end
 end
 if text == "توب" or text == "التوب" then
-local toptop = "← اهلين فيك في قوائم التوب\nللمزيد من التفاصيل - [@IPP_QC]\n〰"
+local toptop = "← اهلين فيك في قوائم التوب\nللمزيد من التفاصيل - [@JJXXH]\n〰"
 local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
@@ -1012,7 +1012,7 @@ data = {
 {text = 'اخفاء', data = msg.sender_id.user_id..'/delAmr'}, 
 },
 {
-{text = '• 𝖲𝗈𝗎𝗋𝖼𝖾 - 𝚌𝚛𝚎𝚊𝚝𝚒𝚟𝚎 .', url="t.me/IPP_QC"},
+{text = '• 𝘼𝘽𝘼𝙕𝘼¹ま .', url="t.me/JJXXH"},
 },
 }
 }
@@ -1091,7 +1091,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '• 𝖲𝗈𝗎𝗋𝖼𝖾 - 𝚌𝚛𝚎𝚊𝚝𝚒𝚟𝚎 .', url="t.me/IPP_QC"},
+{text = '• 𝘼𝘽𝘼𝙕𝘼¹ま .', url="t.me/JJXXH"},
 },
 }
 }
@@ -1157,7 +1157,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '• 𝖲𝗈𝗎𝗋𝖼𝖾 - 𝚌𝚛𝚎𝚊𝚝𝚒𝚟𝚎 .', url="t.me/IPP_QC"},
+{text = '• 𝘼𝘽𝘼𝙕𝘼¹ま .', url="t.me/JJXXH"},
 },
 }
 }
@@ -4046,7 +4046,7 @@ gg = "\n\nملاحظة : اي شخص مخالف للعبة بالغش او حا�
 type = 'inline',
 data = {
 {
-{text = '• 𝖲𝗈𝗎𝗋𝖼𝖾 - 𝚌𝚛𝚎𝚊𝚝𝚒𝚟𝚎 .' , url="t.me/IPP_QC"},
+{text = '• 𝘼𝘽𝘼𝙕𝘼¹ま .' , url="t.me/JJXXH"},
 },
 }
 }
@@ -4118,7 +4118,7 @@ gg = "\n\nملاحظة : اي شخص مخالف للعبة بالغش او حا�
 type = 'inline',
 data = {
 {
-{text = '• 𝖲𝗈𝗎𝗋𝖼𝖾 - 𝚌𝚛𝚎𝚊𝚝𝚒𝚟𝚎 .', url="t.me/IPP_QC"},
+{text = '• 𝘼𝘽𝘼𝙕𝘼¹ま .', url="t.me/JJXXH"},
 },
 }
 }
@@ -4294,7 +4294,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '• 𝖲𝗈𝗎𝗋𝖼𝖾 - 𝚌𝚛𝚎𝚊𝚝𝚒𝚟𝚎 .', url="t.me/IPP_QC"},
+{text = '• 𝘼𝘽𝘼𝙕𝘼¹ま .', url="t.me/JJXXH"},
 },
 }
 }
@@ -5273,7 +5273,7 @@ local intk = inoi:gsub(" ","-")
 lan = "ar"
 local rand = math.random(1,999)
 os.execute("gtts-cli "..intk.." -l '"..lan.."' -o 'intk"..rand..".mp3'")
-bot.sendAudio(msg.chat_id,msg.id,'./intk'..rand..'.mp3',tostring(inoi),"html",nil,tostring(inoi),"@IPP_QC")
+bot.sendAudio(msg.chat_id,msg.id,'./intk'..rand..'.mp3',tostring(inoi),"html",nil,tostring(inoi),"@JJXXH")
 sleep(1)
 os.remove("intk"..rand..".mp3")
 else
@@ -5342,7 +5342,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '• 𝖲𝗈𝗎𝗋𝖼𝖾 - 𝚌𝚛𝚎𝚊𝚝𝚒𝚟𝚎 .', url="t.me/IPP_QC"},
+{text = '• 𝘼𝘽𝘼𝙕𝘼¹ま .', url="t.me/JJXXH"},
 },
 }
 }
@@ -5411,7 +5411,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '• 𝖲𝗈𝗎𝗋𝖼𝖾 - 𝚌𝚛𝚎𝚊𝚝𝚒𝚟𝚎 .', url="t.me/IPP_QC"},
+{text = '• 𝘼𝘽𝘼𝙕𝘼¹ま .', url="t.me/JJXXH"},
 },
 }
 }
@@ -5530,7 +5530,7 @@ data = {
 {
 {text = '🤑', data = msg.sender_id.user_id.."/sahb"},{text = '🤑', data = msg.sender_id.user_id.."/sahb"},{text = '🤑', data = msg.sender_id.user_id.."/sahb"},
 },
-{text = '• 𝖲𝗈𝗎𝗋𝖼𝖾 - 𝚌𝚛𝚎𝚊𝚝𝚒𝚟𝚎 .',url="t.me/IPP_QC"}, 
+{text = '• 𝘼𝘽𝘼𝙕𝘼¹ま .',url="t.me/JJXXH"}, 
 }
 }
 return bot.sendText(msg.chat_id,msg.id,"← اختر الان :\n〰","md",false, false, false, false, reply_markup)
@@ -5554,7 +5554,7 @@ local intk = inoi:gsub(" ","-")
 lan = "ar"
 local rand = math.random(1,999)
 os.execute("gtts-cli "..intk.." -l '"..lan.."' -o 'intk"..rand..".mp3'")
-bot.sendAudio(msg.chat_id,msg.id,'./intk'..rand..'.mp3',tostring(inoi),"html",nil,tostring(inoi),"@IPP_QC")
+bot.sendAudio(msg.chat_id,msg.id,'./intk'..rand..'.mp3',tostring(inoi),"html",nil,tostring(inoi),"@JJXXH")
 sleep(1)
 os.remove("intk"..rand..".mp3")
 else
@@ -5571,7 +5571,7 @@ lan = "ar"
 end
 local rand = math.random(1,999)
 os.execute("gtts-cli "..intk.." -l '"..lan.."' -o 'intk"..rand..".mp3'")
-bot.sendAudio(msg.chat_id,msg.id,'./intk'..rand..'.mp3',tostring(inoi),"html",nil,tostring(inoi),"@IPP_QC")
+bot.sendAudio(msg.chat_id,msg.id,'./intk'..rand..'.mp3',tostring(inoi),"html",nil,tostring(inoi),"@JJXXH")
 sleep(1)
 os.remove("intk"..rand..".mp3")
 end
@@ -5740,7 +5740,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '• 𝖲𝗈𝗎𝗋𝖼𝖾 - 𝚌𝚛𝚎𝚊𝚝𝚒𝚟𝚎 .', url="t.me/IPP_QC"},
+{text = '• 𝘼𝘽𝘼𝙕𝘼¹ま .', url="t.me/JJXXH"},
 },
 }
 }

@@ -44,7 +44,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 creative • 𝒔𝒐𝒖𝒓𝒄𝒆 𓏶 ❍', url = 't.me/IPP_QC'}, 
+{text = '𝘼𝘽𝘼𝙕𝘼¹ま', url = 't.me/JJXXH'}, 
 },
 }
 }
@@ -55,7 +55,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 creative • 𝒔𝒐𝒖𝒓𝒄𝒆 𓏶 ❍', url = 't.me/IPP_QC'}, 
+{text = '𝘼𝘽𝘼𝙕𝘼¹ま', url = 't.me/JJXXH'}, 
 },
 }
 }
@@ -66,7 +66,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 creative • 𝒔𝒐𝒖𝒓𝒄𝒆 𓏶 ❍', url = 't.me/IPP_QC'}, 
+{text = '𝘼𝘽𝘼𝙕𝘼¹ま', url = 't.me/JJXXH'}, 
 },
 }
 }
@@ -77,7 +77,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 creative • 𝒔𝒐𝒖𝒓𝒄𝒆 𓏶 ❍', url = 't.me/IPP_QC'}, 
+{text = '𝘼𝘽𝘼𝙕𝘼¹ま', url = 't.me/JJXXH'}, 
 },
 }
 }
@@ -88,7 +88,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 creative • 𝒔𝒐𝒖𝒓𝒄𝒆 𓏶 ❍', url = 't.me/IPP_QC'}, 
+{text = '𝘼𝘽𝘼𝙕𝘼¹ま', url = 't.me/JJXXH'}, 
 },
 }
 }
@@ -99,7 +99,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 creative • 𝒔𝒐𝒖𝒓𝒄𝒆 𓏶 ❍', url = 't.me/IPP_QC'}, 
+{text = '𝘼𝘽𝘼𝙕𝘼¹ま', url = 't.me/JJXXH'}, 
 },
 }
 }
@@ -110,7 +110,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 creative • 𝒔𝒐𝒖𝒓𝒄𝒆 𓏶 ❍', url = 't.me/IPP_QC'}, 
+{text = '𝘼𝘽𝘼𝙕𝘼¹ま', url = 't.me/JJXXH'}, 
 },
 }
 }
@@ -121,7 +121,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 creative • 𝒔𝒐𝒖𝒓𝒄?? 𓏶 ❍', url = 't.me/IPP_QC'}, 
+{text = '❍ 𓏶 creative • 𝒔𝒐𝒖𝒓𝒄?? 𓏶 ❍', url = 't.me/JJXXH'}, 
 },
 }
 }
@@ -132,7 +132,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝒄𝒓??𝒔𝒕𝒊𝒏 • 𝒔𝒐𝒖𝒓𝒄𝒆 𓏶 ❍', url = 't.me/IPP_QC'}, 
+{text = '❍ 𓏶 𝒄𝒓??𝒔𝒕𝒊𝒏 • 𝒔𝒐𝒖𝒓𝒄𝒆 𓏶 ❍', url = 't.me/JJXXH'}, 
 },
 }
 }
@@ -143,7 +143,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 creative • 𝒔𝒐𝒖𝒓𝒄𝒆 𓏶 ❍', url = 't.me/IPP_QC'}, 
+{text = '𝘼𝘽𝘼𝙕𝘼¹ま', url = 't.me/JJXXH'}, 
 },
 }
 }
@@ -154,7 +154,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 creative • 𝒔𝒐𝒖𝒓𝒄𝒆 𓏶 ❍', url = 't.me/IPP_QC'}, 
+{text = '𝘼𝘽𝘼𝙕𝘼¹ま', url = 't.me/JJXXH'}, 
 },
 }
 }
@@ -165,7 +165,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 creative • 𝒔𝒐𝒖𝒓𝒄𝒆 𓏶 ❍', url = 't.me/IPP_QC'}, 
+{text = '𝘼𝘽𝘼𝙕𝘼¹ま', url = 't.me/JJXXH'}, 
 },
 }
 }
@@ -176,7 +176,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 creative • 𝒔𝒐𝒖𝒓𝒄𝒆 𓏶 ❍', url = 't.me/IPP_QC'}, 
+{text = '𝘼𝘽𝘼𝙕𝘼¹ま', url = 't.me/JJXXH'}, 
 },
 }
 }
@@ -187,7 +187,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 creative • 𝒔𝒐𝒖𝒓𝒄𝒆 𓏶 ❍', url = 't.me/IPP_QC'}, 
+{text = '𝘼𝘽𝘼𝙕𝘼¹ま', url = 't.me/JJXXH'}, 
 },
 }
 }
@@ -198,7 +198,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 creative • 𝒔𝒐𝒖𝒓𝒄𝒆 𓏶 ❍', url = 't.me/IPP_QC'}, 
+{text = '𝘼𝘽𝘼𝙕𝘼¹ま', url = 't.me/JJXXH'}, 
 },
 }
 }
@@ -209,7 +209,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 creative • 𝒔𝒐𝒖𝒓𝒄𝒆 𓏶 ❍', url = 't.me/IPP_QC'}, 
+{text = '𝘼𝘽𝘼𝙕𝘼¹ま', url = 't.me/JJXXH'}, 
 },
 }
 }
@@ -220,7 +220,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 creative • 𝒔𝒐𝒖𝒓𝒄𝒆 𓏶 ❍', url = 't.me/IPP_QC'}, 
+{text = '𝘼𝘽𝘼𝙕𝘼¹ま', url = 't.me/JJXXH'}, 
 },
 }
 }
@@ -231,7 +231,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 creative • 𝒔𝒐𝒖𝒓𝒄𝒆 𓏶 ❍', url = 't.me/IPP_QC'}, 
+{text = '𝘼𝘽𝘼𝙕𝘼¹ま', url = 't.me/JJXXH'}, 
 },
 }
 }
@@ -242,7 +242,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 creative • 𝒔𝒐𝒖𝒓??𝒆 𓏶 ❍', url = 't.me/IPP_QC'}, 
+{text = '❍ 𓏶 creative • 𝒔𝒐𝒖𝒓??𝒆 𓏶 ❍', url = 't.me/JJXXH'}, 
 },
 }
 }
@@ -253,7 +253,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 creative • 𝒔𝒐𝒖𝒓𝒄𝒆 𓏶 ❍', url = 't.me/IPP_QC'}, 
+{text = '𝘼𝘽𝘼𝙕𝘼¹ま', url = 't.me/JJXXH'}, 
 },
 }
 }
@@ -264,7 +264,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 creative • 𝒔𝒐𝒖𝒓𝒄𝒆 𓏶 ❍', url = 't.me/IPP_QC'}, 
+{text = '𝘼𝘽𝘼𝙕𝘼¹ま', url = 't.me/JJXXH'}, 
 },
 }
 }
@@ -275,7 +275,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 creative • 𝒔𝒐𝒖𝒓𝒄𝒆 𓏶 ❍', url = 't.me/IPP_QC'}, 
+{text = '𝘼𝘽𝘼𝙕𝘼¹ま', url = 't.me/JJXXH'}, 
 },
 }
 }
@@ -286,7 +286,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 creative • 𝒔𝒐𝒖𝒓𝒄𝒆 𓏶 ❍', url = 't.me/IPP_QC'}, 
+{text = '𝘼𝘽𝘼𝙕𝘼¹ま', url = 't.me/JJXXH'}, 
 },
 }
 }
@@ -297,7 +297,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 creative • 𝒔𝒐𝒖𝒓𝒄𝒆 𓏶 ❍', url = 't.me/IPP_QC'}, 
+{text = '𝘼𝘽𝘼𝙕𝘼¹ま', url = 't.me/JJXXH'}, 
 },
 }
 }
@@ -308,7 +308,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 creative • 𝒔𝒐𝒖𝒓𝒄𝒆 𓏶 ❍', url = 't.me/IPP_QC'}, 
+{text = '𝘼𝘽𝘼𝙕𝘼¹ま', url = 't.me/JJXXH'}, 
 },
 }
 }
@@ -319,7 +319,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 creative • 𝒔𝒐𝒖𝒓𝒄𝒆 𓏶 ❍', url = 't.me/IPP_QC'}, 
+{text = '𝘼𝘽𝘼𝙕𝘼¹ま', url = 't.me/JJXXH'}, 
 },
 }
 }
@@ -330,7 +330,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 creative • 𝒔𝒐𝒖𝒓𝒄𝒆 𓏶 ❍', url = 't.me/IPP_QC'}, 
+{text = '𝘼𝘽𝘼𝙕𝘼¹ま', url = 't.me/JJXXH'}, 
 },
 }
 }
@@ -341,7 +341,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 creative • 𝒔𝒐𝒖𝒓𝒄𝒆 𓏶 ❍', url = 't.me/IPP_QC'}, 
+{text = '𝘼𝘽𝘼𝙕𝘼¹ま', url = 't.me/JJXXH'}, 
 },
 }
 }
@@ -352,7 +352,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 creative • 𝒔𝒐𝒖𝒓𝒄𝒆 𓏶 ❍', url = 't.me/IPP_QC'}, 
+{text = '𝘼𝘽𝘼𝙕𝘼¹ま', url = 't.me/JJXXH'}, 
 },
 }
 }
@@ -363,7 +363,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 creative • 𝒔𝒐𝒖𝒓𝒄𝒆 𓏶 ❍', url = 't.me/IPP_QC'}, 
+{text = '𝘼𝘽𝘼𝙕𝘼¹ま', url = 't.me/JJXXH'}, 
 },
 }
 }
@@ -374,7 +374,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 creative • 𝒔𝒐𝒖𝒓𝒄𝒆 𓏶 ❍', url = 't.me/IPP_QC'}, 
+{text = '𝘼𝘽𝘼𝙕𝘼¹ま', url = 't.me/JJXXH'}, 
 },
 }
 }
@@ -385,7 +385,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 creative • 𝒔𝒐𝒖𝒓𝒄𝒆 𓏶 ❍', url = 't.me/IPP_QC'}, 
+{text = '𝘼𝘽𝘼𝙕𝘼¹ま', url = 't.me/JJXXH'}, 
 },
 }
 }
@@ -396,7 +396,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 creative • 𝒔𝒐𝒖𝒓𝒄𝒆 𓏶 ❍', url = 't.me/IPP_QC'}, 
+{text = '𝘼𝘽𝘼𝙕𝘼¹ま', url = 't.me/JJXXH'}, 
 },
 }
 }
@@ -407,7 +407,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 creative • 𝒔𝒐𝒖𝒓𝒄𝒆 𓏶 ❍', url = 't.me/IPP_QC'}, 
+{text = '𝘼𝘽𝘼𝙕𝘼¹ま', url = 't.me/JJXXH'}, 
 },
 }
 }
@@ -418,7 +418,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 creative • 𝒔𝒐𝒖𝒓𝒄𝒆 𓏶 ❍', url = 't.me/IPP_QC'}, 
+{text = '𝘼𝘽𝘼𝙕𝘼¹ま', url = 't.me/JJXXH'}, 
 },
 }
 }
@@ -429,7 +429,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 creative • 𝒔𝒐𝒖𝒓𝒄𝒆 𓏶 ❍', url = 't.me/IPP_QC'}, 
+{text = '𝘼𝘽𝘼𝙕𝘼¹ま', url = 't.me/JJXXH'}, 
 },
 }
 }
@@ -440,7 +440,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 creative • 𝒔𝒐𝒖𝒓𝒄𝒆 𓏶 ❍', url = 't.me/IPP_QC'}, 
+{text = '𝘼𝘽𝘼𝙕𝘼¹ま', url = 't.me/JJXXH'}, 
 },
 }
 }
@@ -451,7 +451,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 creative • 𝒔𝒐𝒖𝒓𝒄𝒆 𓏶 ❍', url = 't.me/IPP_QC'}, 
+{text = '𝘼𝘽𝘼𝙕𝘼¹ま', url = 't.me/JJXXH'}, 
 },
 }
 }
@@ -462,7 +462,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 creative • 𝒔𝒐𝒖𝒓𝒄𝒆 𓏶 ❍', url = 't.me/IPP_QC'}, 
+{text = '𝘼𝘽𝘼𝙕𝘼¹ま', url = 't.me/JJXXH'}, 
 },
 }
 }
@@ -473,7 +473,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 creative • 𝒔𝒐𝒖𝒓𝒄𝒆 𓏶 ❍', url = 't.me/IPP_QC'}, 
+{text = '𝘼𝘽𝘼𝙕𝘼¹ま', url = 't.me/JJXXH'}, 
 },
 }
 }
@@ -484,7 +484,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 creative • 𝒔𝒐𝒖𝒓𝒄𝒆 𓏶 ❍', url = 't.me/IPP_QC'}, 
+{text = '𝘼𝘽𝘼𝙕𝘼¹ま', url = 't.me/JJXXH'}, 
 },
 }
 }
@@ -495,7 +495,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 creative • 𝒔𝒐𝒖𝒓𝒄𝒆 𓏶 ❍', url = 't.me/IPP_QC'}, 
+{text = '𝘼𝘽𝘼𝙕𝘼¹ま', url = 't.me/JJXXH'}, 
 },
 }
 }
@@ -506,7 +506,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 creative • 𝒔𝒐𝒖𝒓𝒄𝒆 𓏶 ❍', url = 't.me/IPP_QC'}, 
+{text = '𝘼𝘽𝘼𝙕𝘼¹ま', url = 't.me/JJXXH'}, 
 },
 }
 }
@@ -517,7 +517,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 creative • 𝒔𝒐𝒖𝒓𝒄𝒆 𓏶 ❍', url = 't.me/IPP_QC'}, 
+{text = '𝘼𝘽𝘼𝙕𝘼¹ま', url = 't.me/JJXXH'}, 
 },
 }
 }
@@ -528,7 +528,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 creative • 𝒔𝒐𝒖𝒓𝒄𝒆 𓏶 ❍', url = 't.me/IPP_QC'}, 
+{text = '𝘼𝘽𝘼𝙕𝘼¹ま', url = 't.me/JJXXH'}, 
 },
 }
 }
@@ -539,7 +539,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 creative • 𝒔𝒐𝒖𝒓𝒄𝒆 𓏶 ❍', url = 't.me/IPP_QC'}, 
+{text = '𝘼𝘽𝘼𝙕𝘼¹ま', url = 't.me/JJXXH'}, 
 },
 }
 }
@@ -550,7 +550,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 creative • 𝒔𝒐𝒖𝒓𝒄𝒆 𓏶 ❍', url = 't.me/IPP_QC'}, 
+{text = '𝘼𝘽𝘼𝙕𝘼¹ま', url = 't.me/JJXXH'}, 
 },
 }
 }
