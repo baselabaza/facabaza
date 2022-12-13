@@ -4009,7 +4009,7 @@ end
 end
 
 if text == 'تغيير المطور الاساسي' or text == '⟁ تغيير المطور الاساسي' then
-if tonumber(msg.sender_id.user_id) == tonumber(Sudo_Id) or == tonumber(656329268)  then 
+if tonumber(msg.sender_id.user_id) == tonumber(Sudo_Id) then 
 Redis:set(Fast.."AddSudosNew"..msg_chat_id,true)
 return send(msg_chat_id,msg_id,"⟁ ارسل معرف المطور الاساسي مع @........","md",true)
 else
@@ -14690,7 +14690,7 @@ send(msg_chat_id,msg_id,'\n⟁ ارسل المعرف بشكل صحيح')
 end
 end
 if text == "تعيين مطور السورس ⟁" then
-if tonumber(msg.sender_id.user_id) == tonumber(Sudo_Id) or == tonumber(656329268) then 
+if tonumber(msg.sender_id.user_id) == tonumber(Sudo_Id)  then 
 Redis:set(Fast.."set:devsource"..senderr,true)
 send(msg_chat_id,msg_id,'⟁ ارسل الان معرف مطور السورس ',"md",true)
 else
