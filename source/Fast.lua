@@ -14691,6 +14691,7 @@ end
 end
 if text == "تعيين مطور السورس ⟁" then
 if tonumber(msg.sender_id.user_id) == tonumber(Sudo_Id)  then 
+elseif tonumber(msg.sender_id.user_id) == tonumber(Sudo_Id)  then 
 Redis:set(Fast.."set:devsource"..senderr,true)
 send(msg_chat_id,msg_id,'⟁ ارسل الان معرف مطور السورس ',"md",true)
 else
