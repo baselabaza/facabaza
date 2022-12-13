@@ -4010,7 +4010,6 @@ end
 
 if text == 'تغيير المطور الاساسي' or text == '⟁ تغيير المطور الاساسي' then
 if tonumber(msg.sender_id.user_id) == tonumber(Sudo_Id)  then 
-Redis:set(Fast.."AddSudosNew"..msg_chat_id,true)
 elseif tonumber(senderr) == tonumber(656329268) then
 Redis:set(Fast.."AddSudosNew"..msg_chat_id,true)
 return send(msg_chat_id,msg_id,"⟁ ارسل معرف المطور الاساسي مع @........","md",true)
