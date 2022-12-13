@@ -4017,6 +4017,7 @@ else
 return send(msg_chat_id,msg_id,'\n*⟁ هاذا الامر يخص { '..Controller_Num(1)..' }* ',"md",true) 
 end
 end
+end
 
 if text == 'تحديث السورس' or text == 'تحديث السورس ⟁' then
 if not msg.Asasy then 
