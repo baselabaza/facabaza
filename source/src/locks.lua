@@ -1747,7 +1747,7 @@ Get_Json = Get_Json..'"'..ide..'":{'
 else
 Get_Json = Get_Json..',"'..ide..'":{'
 end
-if #listrep >= 5 then
+if #listrep >= 1 then
 for k,v in pairs(listrep) do
 if Redis:get(Fast.."Add:Rd:Manager:Gif"..v..ide) then
 db = "gif@"..Redis:get(Fast.."Add:Rd:Manager:Gif"..v..ide)
@@ -1837,7 +1837,7 @@ end
 local Get_Json = '{"BotId": '..Fast..','  
 Get_Json = Get_Json..'"GroupsBotreply":{'
 listrep = Redis:smembers(Fast.."List:Rd:Sudo")
-if #listrep >= 5 then
+if #listrep >= 1 then
 for k,v in pairs(listrep) do
 if Redis:get(Fast.."Add:Rd:Sudo:Gif"..v) then
 db = "gif@"..Redis:get(Fast.."Add:Rd:Sudo:Gif"..v)

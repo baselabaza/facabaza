@@ -1126,6 +1126,9 @@ end
 end
 end
 if text and text:match("^رفع (.*)$") and msg.reply_to_message_id ~= 0 then
+if text == "رفع نسخه الردود" or text == "رفع الردود العامه" then 
+return false
+end
 local TextMsg = text:match("^رفع (.*)$")
 local Message_Reply = bot.getMessage(msg.chat_id, msg.reply_to_message_id)
 local UserInfo = bot.getUser(rep_idd)
@@ -1432,6 +1435,9 @@ end
 end
 end
 if text and text:match('^رفع (.*) (%d+)$') then
+if text == "رفع نسخه الردود" or text == "رفع الردود العامه" then 
+return false
+end
 local UserId = {text:match('^رفع (.*) (%d+)$')}
 local UserInfo = bot.getUser(UserId[2])
 if UserInfo.Fastbots == "error" and UserInfo.code == 6 then
